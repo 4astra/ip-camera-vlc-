@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EF3FB32C75E8390EAC9F095 /* Pods_IPCamera_VCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5240F68A261ACD30DABCBC /* Pods_IPCamera_VCL.framework */; };
+		EB3A112E1F30B24E003D296C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A112D1F30B24E003D296C /* AppDelegate.swift */; };
+		EB3A11301F30B24E003D296C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A112F1F30B24E003D296C /* ViewController.swift */; };
+		EB3A11331F30B24E003D296C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3A11311F30B24E003D296C /* Main.storyboard */; };
+		EB3A11351F30B24E003D296C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3A11341F30B24E003D296C /* Assets.xcassets */; };
+		EB3A11381F30B24E003D296C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3A11361F30B24E003D296C /* LaunchScreen.storyboard */; };
+		EB3A11401F30B4E0003D296C /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3A113F1F30B4E0003D296C /* libstdc++.6.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13E6E4FC515438761A7C6F70 /* Pods-IPCamera VCL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPCamera VCL.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPCamera VCL/Pods-IPCamera VCL.release.xcconfig"; sourceTree = "<group>"; };
+		3C5240F68A261ACD30DABCBC /* Pods_IPCamera_VCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IPCamera_VCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAC061EDA3859079B856CFD /* Pods-IPCamera VCL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPCamera VCL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPCamera VCL/Pods-IPCamera VCL.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3A112A1F30B24E003D296C /* IPCamera VLC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IPCamera VLC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3A112D1F30B24E003D296C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB3A112F1F30B24E003D296C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB3A11321F30B24E003D296C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB3A11341F30B24E003D296C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB3A11371F30B24E003D296C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB3A11391F30B24E003D296C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3A113F1F30B4E0003D296C /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		EB3A11411F30B4FC003D296C /* IPCamera VCL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPCamera VCL-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB3A11271F30B24E003D296C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3A11401F30B4E0003D296C /* libstdc++.6.tbd in Frameworks */,
+				6EF3FB32C75E8390EAC9F095 /* Pods_IPCamera_VCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636858855DCB538D70C92F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A113F1F30B4E0003D296C /* libstdc++.6.tbd */,
+				3C5240F68A261ACD30DABCBC /* Pods_IPCamera_VCL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		796D85482FAE72EEC44C9C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC061EDA3859079B856CFD /* Pods-IPCamera VCL.debug.xcconfig */,
+				13E6E4FC515438761A7C6F70 /* Pods-IPCamera VCL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB3A11211F30B24E003D296C = {
+			isa = PBXGroup;
+			children = (
+				EB3A112C1F30B24E003D296C /* IPCamera VCL */,
+				EB3A112B1F30B24E003D296C /* Products */,
+				796D85482FAE72EEC44C9C1C /* Pods */,
+				636858855DCB538D70C92F09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB3A112B1F30B24E003D296C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A112A1F30B24E003D296C /* IPCamera VLC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB3A112C1F30B24E003D296C /* IPCamera VCL */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A112D1F30B24E003D296C /* AppDelegate.swift */,
+				EB3A112F1F30B24E003D296C /* ViewController.swift */,
+				EB3A11311F30B24E003D296C /* Main.storyboard */,
+				EB3A11341F30B24E003D296C /* Assets.xcassets */,
+				EB3A11361F30B24E003D296C /* LaunchScreen.storyboard */,
+				EB3A11391F30B24E003D296C /* Info.plist */,
+				EB3A11411F30B4FC003D296C /* IPCamera VCL-Bridging-Header.h */,
+			);
+			path = "IPCamera VCL";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB3A11291F30B24E003D296C /* IPCamera VLC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB3A113C1F30B24E003D296C /* Build configuration list for PBXNativeTarget "IPCamera VLC" */;
+			buildPhases = (
+				846083B1EBF88D55B5EA4AAF /* [CP] Check Pods Manifest.lock */,
+				EB3A11261F30B24E003D296C /* Sources */,
+				EB3A11271F30B24E003D296C /* Frameworks */,
+				EB3A11281F30B24E003D296C /* Resources */,
+				EB8FB712D87355DDFF8FCE86 /* [CP] Embed Pods Frameworks */,
+				DA8E7735F1F78A2D0DF89CAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IPCamera VLC";
+			productName = "IPCamera VCL";
+			productReference = EB3A112A1F30B24E003D296C /* IPCamera VLC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB3A11221F30B24E003D296C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hockey Run";
+				TargetAttributes = {
+					EB3A11291F30B24E003D296C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P985PQJZ32;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB3A11251F30B24E003D296C /* Build configuration list for PBXProject "IPCamera VLC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB3A11211F30B24E003D296C;
+			productRefGroup = EB3A112B1F30B24E003D296C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB3A11291F30B24E003D296C /* IPCamera VLC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB3A11281F30B24E003D296C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3A11381F30B24E003D296C /* LaunchScreen.storyboard in Resources */,
+				EB3A11351F30B24E003D296C /* Assets.xcassets in Resources */,
+				EB3A11331F30B24E003D296C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		846083B1EBF88D55B5EA4AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPCamera VCL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8E7735F1F78A2D0DF89CAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPCamera VCL/Pods-IPCamera VCL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB8FB712D87355DDFF8FCE86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPCamera VCL/Pods-IPCamera VCL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB3A11261F30B24E003D296C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3A11301F30B24E003D296C /* ViewController.swift in Sources */,
+				EB3A112E1F30B24E003D296C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB3A11311F30B24E003D296C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3A11321F30B24E003D296C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB3A11361F30B24E003D296C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB3A11371F30B24E003D296C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB3A113A1F30B24E003D296C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB3A113B1F30B24E003D296C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB3A113D1F30B24E003D296C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAC061EDA3859079B856CFD /* Pods-IPCamera VCL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = P985PQJZ32;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "IPCamera VCL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "run.hockey.IPCamera-VCL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IPCamera VCL/IPCamera VCL-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB3A113E1F30B24E003D296C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E6E4FC515438761A7C6F70 /* Pods-IPCamera VCL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = P985PQJZ32;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "IPCamera VCL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "run.hockey.IPCamera-VCL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IPCamera VCL/IPCamera VCL-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB3A11251F30B24E003D296C /* Build configuration list for PBXProject "IPCamera VLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3A113A1F30B24E003D296C /* Debug */,
+				EB3A113B1F30B24E003D296C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB3A113C1F30B24E003D296C /* Build configuration list for PBXNativeTarget "IPCamera VLC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3A113D1F30B24E003D296C /* Debug */,
+				EB3A113E1F30B24E003D296C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB3A11221F30B24E003D296C /* Project object */;
+}
